@@ -1,0 +1,17 @@
+.pending{
+    margin: 14.63rem 0rem 88.31rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pendingIcon{
+    width: 96px;
+    height: 96px;
+}
+
+@media (max-width:480){
+    .pendingIcon{
+        width: 30px;
+        height: 30px;
+    }
+}

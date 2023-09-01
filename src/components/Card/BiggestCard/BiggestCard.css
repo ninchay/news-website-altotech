@@ -1,0 +1,61 @@
+.backgroundBig {
+    width: 540px;
+    height: 423px;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: #0D47A1;
+}
+
+.context {
+    position: absolute;
+    background: rgba(9, 53, 123, 0.90);
+    opacity: 0.9;
+    height: 136px;
+    bottom: 0; 
+    width: 100%;
+}
+
+.title {
+    color: #FFF;
+    font-family: Georgia;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.body{
+    color: #FFF;
+    font-family: var(--font-search);
+    font-size: 14px;
+    margin: 5px 10px 17px 11px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+@media (max-width: 480px) {
+    .backgroundBig{
+        width: 365px;
+        height: 365px;
+        background-size: contain;
+        background-position: center;
+    }
+    .context{
+        height: 100px
+    }
+    .title{
+        font-size: 18px;
+    }
+    .body{
+        font-size: 15px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+}

@@ -1,0 +1,30 @@
+.backgroundTiny {
+    background-color: #09357B;
+    width: 255px;
+    height: 138px;  
+}
+
+.titleTiny {
+    padding: 10px;
+    color: #FFF;
+    font-family: Georgia;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@media(max-width: 480px){
+    .backgroundTiny{
+        width: 150px;
+        height: 80px; 
+    }
+    .titleTiny{
+        font-size: 14px;
+        margin: 5px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2.5;
+        line-clamp: 2.5;
+        -webkit-box-orient: vertical;
+    }
+}

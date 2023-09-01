@@ -1,0 +1,90 @@
+.topContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.topStories {
+    font-family: Georgia;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 44px;
+    margin-bottom: 30px;
+    margin-right: 534.7px
+}
+.dropdown{
+    top: 5px;
+    left: 120px;
+}
+.topStoriesCombined{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+.rowTwo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 30px;
+}
+.rowThree{
+    margin-right: 165px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.twoNthree{
+    display: flex;
+    flex-direction: row;
+}
+.mediumCardContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.mediumCardList{
+    margin-right: 30px;
+}
+
+@media (max-width: 480px) {
+    .topContent{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 30px 5px 10px 5px;
+    }
+    .topStories{
+        font-size: 23px;
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .topStoriesCombined {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .twoNthree{
+        display: flex;
+        flex-direction: row;
+    }
+    .rowTwo, .rowThree{
+        flex-direction: column;
+        margin: 5px;
+    }
+    .mediumCardContainer{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: left;
+        align-items: center;
+        margin: 5px;
+    }
+    .mediumCardList{
+        box-sizing: border-box; 
+        display: inline-block;
+        margin-inline-end: 5px;
+    }
+    .dropdown{
+        margin-left: 40px;
+    }
+}

@@ -1,0 +1,12 @@
+.contextHomepage{
+    max-width: 1110px;
+    margin-left:auto;
+    margin-right:auto;
+}
+@media (max-width:480px){
+    .contextHomepage{
+        max-width: 380px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}

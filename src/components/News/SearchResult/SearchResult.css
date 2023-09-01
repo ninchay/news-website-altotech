@@ -1,0 +1,48 @@
+.topMostSearch{
+    display: flex;
+    flex-direction: row;
+}
+.topSearch{
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Georgia;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 44px 350px 37.92px 0px;
+}
+.bigSearch {
+    max-width: 1100px;
+}
+.searchResultNews {
+    display: inline-block;
+    margin: 31px 30px 0 0; 
+    width: calc(33.33% - 30px);
+    box-sizing: border-box; 
+}
+
+@media (max-width:480px){
+    .header{
+        font-size: 23px;
+        margin-top: 30px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        margin-right: 29px;
+    }
+    .header h1{
+        width: 200px;
+    }
+    .bigSearch {
+        max-width: 380px;
+    }
+    .searchResultNews {
+        display: inline-block;
+        margin: 10px 80px 0 10px; 
+    }
+    
+}
+
